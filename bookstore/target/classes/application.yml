@@ -1,0 +1,19 @@
+server:
+  port: 8888
+mybatis:
+  type-aliases-package: com.mingzzc.dao
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/bookstore?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 875706055
+    sql-script-encoding: utf-8
+  redis:
+    database: 0
+    host: 59.110.152.111
+    password: 875706055
+    port: 6379
+    jedis:
+      pool:
+        max-active: 10
